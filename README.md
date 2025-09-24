@@ -28,7 +28,7 @@ The dataset contains financial transaction records with labels indicating whethe
 - `Features`  
 - `Class` (0 = Non-Fraud, 1 = Fraud)  
 
-> ⚠️ Update this section with the actual dataset source (e.g., [Kaggle Credit Card Fraud Detection dataset](https://drive.usercontent.google.com/download?id=1VNpyNkGxHdskfdTNRSjjyNa5qC9u0JyV&export=download&authuser=0)).
+> ⚠️ dataset source (e.g., [Fraud Detection dataset](https://drive.usercontent.google.com/download?id=1VNpyNkGxHdskfdTNRSjjyNa5qC9u0JyV&export=download&authuser=0)).
 
 ---
 
