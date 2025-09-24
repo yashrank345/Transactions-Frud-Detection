@@ -36,7 +36,7 @@ The dataset contains financial transaction records with labels indicating whethe
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/fraud-detection.git
+git clone https://github.com/yashrank345/Transactions-Frud-Detectiont
 cd fraud-detection
 pip install -r requirements.txt
 ```
