@@ -1,12 +1,12 @@
 # Fraud Detection
 
-## 📌 Overview
+##  Overview
 This project focuses on **Fraud Detection** using machine learning.  
 The goal is to identify fraudulent transactions from a dataset by analyzing transaction patterns and applying classification models.
 
 ---
 
-## 🛠️ Features
+##  Features
 - Data preprocessing and cleaning  
 - Exploratory Data Analysis (EDA)  
 - Feature engineering and selection  
@@ -19,7 +19,7 @@ The goal is to identify fraudulent transactions from a dataset by analyzing tran
 
 ---
 
-## 📊 Dataset
+## Dataset
 The dataset contains financial transaction records with labels indicating whether the transaction is **fraudulent** or **legitimate**.  
 
 **Typical columns include:**  
@@ -28,11 +28,11 @@ The dataset contains financial transaction records with labels indicating whethe
 - `Features`  
 - `Class` (0 = Non-Fraud, 1 = Fraud)  
 
-> ⚠️ dataset source (e.g., [Fraud Detection dataset](https://drive.usercontent.google.com/download?id=1VNpyNkGxHdskfdTNRSjjyNa5qC9u0JyV&export=download&authuser=0)).
+> dataset source (e.g., [Fraud Detection dataset](https://drive.usercontent.google.com/download?id=1VNpyNkGxHdskfdTNRSjjyNa5qC9u0JyV&export=download&authuser=0)).
 
 ---
 
-## ⚙️ Installation
+## Installation
 Clone this repository and install dependencies:
 
 ```bash
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ### 1. Run the Jupyter Notebook
 Launch Jupyter Notebook and open the project file:
@@ -52,23 +52,30 @@ Launch Jupyter Notebook and open the project file:
 jupyter notebook "Frud Detection.ipynb"
 ```
 
-## 📈 Results
+## Results
 
 - Fraudulent transactions were successfully identified with **high recall and precision**.  
 - Multiple models were trained and compared.  
 - The best-performing model was evaluated using **ROC-AUC**, which is suitable for imbalanced datasets.  
 
-### 🔎 Evaluation Metrics
+###  Evaluation Metrics
 - **Accuracy**: Measures overall correctness.  
 - **Precision**: Measures how many predicted frauds were actually fraud.  
 - **Recall (Sensitivity)**: Measures how many actual frauds were detected.  
 - **F1-Score**: Balance between precision and recall.  
 - **ROC-AUC**: Captures model performance across all thresholds.  
 
-### 📊 Visualizations
+###  Visualizations
 - **Confusion Matrix** – to show classification performance.  
 - **ROC Curve** – to illustrate trade-offs between true positive and false positive rates.  
 - **Precision-Recall Curve** – useful for imbalanced data.  
 
+---
 
+## Author
+**Created by @Yash**
+
+If you found this useful, consider leaving a ⭐ on the repository!
+
+---
 
